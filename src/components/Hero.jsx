@@ -22,7 +22,7 @@ const Hero = () => {
                 <div className="flex items-center gap-3">
                     <figure className="img-box w-9 h-9 rounded-lg">
                         <img 
-                            src="/images/avatar.jpg"
+                            src="./images/avatar.jpg"
                             width={40}
                             height={40} 
                             alt="Roberto Vicari portrait" 
@@ -63,7 +63,7 @@ const Hero = () => {
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-300 via-25% 
                                     via-sky-300/80 to-70% rounded-[30px] overflow-hidden">
                         <img 
-                            src="/images/Hero.png"
+                            src="./images/Hero.png"
                             width={656}
                             height={800}
                             alt="Hero background" 
