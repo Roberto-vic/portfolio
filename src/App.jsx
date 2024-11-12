@@ -39,7 +39,7 @@ const App = () => {
                 scrollTrigger: {
                     trigger: element,
                     start: '-200 bottom',
-                    end:'bottom 80%',
+                    end: 'bottom 80%',
                     scrub: true
                 },
                 y: 0,
@@ -51,18 +51,17 @@ const App = () => {
     })
 
     return (
-    <ReactLenis root>
-        <Header  />
-        <main>
-            <Hero />
-            <About />
-            <Skill />
-            <Work />
-            <Review />
-            <Contact />
-        </main>
-        <Footer />
-    </ReactLenis>
+        <ReactLenis root>
+            <Header />
+            <main>
+                <Hero />
+                <About />
+                <Skill />
+                <Work />
+                <Contact />
+            </main>
+            <Footer />
+        </ReactLenis>
     )
 }
 
