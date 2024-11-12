@@ -27,7 +27,7 @@ export const Header = () => {
             className="logo"
             >
                 <img 
-                src="/images/LogoRV.png"
+                src="./images/LogoRV.png"
                 width={35}
                 height={35}
                 alt="Roberto Vicari" 
