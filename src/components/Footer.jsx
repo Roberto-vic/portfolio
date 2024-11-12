@@ -98,7 +98,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex items-center justify-between mt-16 ">
+                <div className="flex items-center justify-between mt-6 mb-6">
                     <a
                         href="/"
                         className="logo reveal-up "
@@ -110,7 +110,16 @@ const Footer = () => {
                             alt="Logo"
                         />
                     </a>
-
+                    <p className="mt-9 ">
+                        <a
+                            href="https://roberto-vic.github.io/portfolio/"
+                        >
+                            <img
+                                alt="Hits"
+                                src="https://hits.sh/roberto-vic.github.io/portfolio.svg?style=for-the-badge&label=visitors&color=eb49cb&labelColor=2a5f77"
+                            />
+                        </a>
+                    </p>
                     <p className="text-zinc-500 text-sm reveal-up ">
                         &copy; 2024 <span className="text-zinc-200 ">Roberto Vicari</span>
                     </p>
