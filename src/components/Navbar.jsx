@@ -6,10 +6,10 @@
 /**
  * Node modules
  */
-import { useRef, useEffect } from'react';
+import { useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 
-const Navbar = ({ navOpen}) => {
+const Navbar = ({ navOpen }) => {
 
     const lastActiveLink = useRef();
     const activeBox = useRef();
@@ -61,27 +61,27 @@ const Navbar = ({ navOpen}) => {
             className: 'nav-link md:hidden'
         }
     ];
-  return (
-    <nav className={'navbar ' + (navOpen ? 'active' : '')}>
-        {
-            navItems.map(({label, link, className, ref}, key) => (
-                <a 
-                href={link} 
-                key={key}
-                ref={ref}
-                className={className}
-                onClick={activeCurrentLink}
-                >
-                    {label}
-                </a>
-            ))
-        }
-        <div 
-        className="active-box"
-        ref={activeBox}
-        ></div>
-    </nav>
-  )
+    return (
+        <nav className={'navbar ' + (navOpen ? 'active' : '')}>
+            {
+                navItems.map(({ label, link, className, ref }, key) => (
+                    <a
+                        href={link}
+                        key={key}
+                        ref={ref}
+                        className={className}
+                        onClick={activeCurrentLink}
+                    >
+                        {label}
+                    </a>
+                ))
+            }
+            <div
+                className="active-box"
+                ref={activeBox}
+            ></div>
+        </nav>
+    )
 }
 
 Navbar.propTypes = {

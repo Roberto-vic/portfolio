@@ -69,31 +69,31 @@ const skillItem = [
 ];
 
 function Skill() {
-  return (
-      <section className="section ">
-          <div className="container ">
-            <h2 className="headline-2 reveal-up ">
-                Essential Tools and Programming languages I use 
-            </h2>
-              <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up ">
-                Discover the powerfull tools and technologies I use to create website and applications.
-            </p>
+    return (
+        <section className="section ">
+            <div className="container ">
+                <h2 className="headline-2 reveal-up ">
+                    Essential Tools and Programming languages I use
+                </h2>
+                <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] reveal-up ">
+                    Discover the powerfull tools and technologies I use to create website and applications.
+                </p>
 
-            <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
-                { skillItem.map(({ imgSrc, label, desc }, key) => (
-                        <SkillCard 
+                <div className="grid gap-3 grid-cols-[repeat(auto-fill,_minmax(250px,_1fr))]">
+                    {skillItem.map(({ imgSrc, label, desc }, key) => (
+                        <SkillCard
                             key={key}
                             imgSrc={imgSrc}
                             label={label}
                             desc={desc}
                             classes="reveal-up "
                         />
-                    )) 
-                }
+                    ))
+                    }
+                </div>
             </div>
-        </div>
-    </section>
-  )
+        </section>
+    )
 }
 
 export default Skill
