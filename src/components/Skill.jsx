@@ -12,57 +12,57 @@ import SkillCard from "./SkillCard";
 
 const skillItem = [
     {
-        imgSrc: '/images/html-icona.png',
+        imgSrc: './images/html-icona.png',
         label: 'HTML',
         desc: 'HyperTextMarkupLanguages'
     },
     {
-        imgSrc: '/images/css-icona.png',
+        imgSrc: './images/css-icona.png',
         label: 'CSS',
         desc: 'User Interface'
     },
     {
-        imgSrc: '/images/js-icona.png',
+        imgSrc: './images/js-icona.png',
         label: 'JavaScript',
         desc: 'Interaction'
     },
     {
-        imgSrc: '/images/cs-icona.png',
+        imgSrc: './images/cs-icona.png',
         label: 'C#',
         desc: 'Programming Language'
     },
     {
-        imgSrc: '/images/mysql-icona.png',
+        imgSrc: './images/mysql-icona.png',
         label: 'MySQL Server',
         desc: 'Web Server'
     },
     {
-        imgSrc: '/images/php-icona.png',
+        imgSrc: './images/php-icona.png',
         label: 'PHP',
         desc: 'Programming Language'
     },
     {
-        imgSrc: '/images/py-icona.png',
+        imgSrc: './images/py-icona.png',
         label: 'Python',
         desc: 'Programming Languages'
     },
     {
-        imgSrc: '/images/vs-icona.png',
+        imgSrc: './images/vs-icona.png',
         label: 'VisualStudio & VS Code',
         desc: 'IDEs'
     },
     {
-        imgSrc: '/images/github-icona.png',
+        imgSrc: './images/github-icona.png',
         label: 'GitHub',
         desc: 'Versioning services'
     },
     {
-        imgSrc: '/images/react-icona.png',
+        imgSrc: './images/react-icona.png',
         label: 'React',
         desc: 'Framework'
     },
     {
-        imgSrc: '/images/tailwind-icona.png',
+        imgSrc: './images/tailwind-icona.png',
         label: 'TailwindCSS',
         desc: 'User Interface'
     },

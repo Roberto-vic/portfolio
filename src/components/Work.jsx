@@ -11,25 +11,25 @@ import ProjectCard from "./ProjectCard";
 
 const works = [
     {
-        imgSrc: '/images/todoapp.png',
+        imgSrc: './images/todoapp.png',
         title: 'ToDo app in Vue.JS',
         tags: ['Development', 'Vue.JS'],
         projectLink: ''
     },
     {
-        imgSrc: '/images/realitaetspause.png',
+        imgSrc: './images/realitaetspause.png',
         title: 'School project website',
         tags: ['Web-design', 'Development', 'PHP'],
         projectLink: ''
     },
     {
-        imgSrc: '/images/ecommerce.png',
+        imgSrc: './images/ecommerce.png',
         title: 'eCommerce website',
         tags: ['eCommerce', 'Development', 'PHP'],
         projectLink: 'http://www.myshoptestroby.altervista.org/'
     },
     {
-        imgSrc: '/images/onepage.png',
+        imgSrc: './images/onepage.png',
         title: 'Onepage Site',
         tags: ['Web-design', 'Development', 'HTML-CSS-JS'],
         projectLink: 'https://roberto-vic.github.io/Onepagesite/'
