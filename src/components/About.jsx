@@ -27,7 +27,7 @@ const About = () => {
                     <p className="text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch] reveal-up ">
                         My name is Roberto Vicari, and I’m a junior developer with a background as a Web- and Software Developer and
                         a solid technical foundation in HTML, CSS, JavaScript, and PHP. During my 9-month internship, I gained hands-on
-                        experience with C# and SQL by developing applications with Windows Forms, and I’ve since expanded my skills by
+                        experience with C# and SQL by developing applications with Windows Forms, and since then, I’ve expanded my skills by
                         exploring modern technologies like React and TailwindCSS. I also have a foundational knowledge of Docker, Python,
                         and Java, and I'm always eager to learn new tools and languages.
 
