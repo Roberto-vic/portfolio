@@ -14,7 +14,7 @@ const skillItem = [
     {
         imgSrc: './images/html-icona.png',
         label: 'HTML',
-        desc: 'HyperTextMarkupLanguages'
+        desc: 'HyperTextMarkupLanguage'
     },
     {
         imgSrc: './images/css-icona.png',
@@ -44,7 +44,7 @@ const skillItem = [
     {
         imgSrc: './images/py-icona.png',
         label: 'Python',
-        desc: 'Programming Languages'
+        desc: 'Programming Language'
     },
     {
         imgSrc: './images/vs-icona.png',

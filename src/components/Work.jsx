@@ -14,13 +14,13 @@ const works = [
         imgSrc: './images/todoapp.png',
         title: 'ToDo app in Vue.JS',
         tags: ['Development', 'Vue.JS'],
-        projectLink: ''
+        projectLink: 'https://github.com/Roberto-vic/todoapp'
     },
     {
         imgSrc: './images/realitaetspause.png',
         title: 'School project website',
         tags: ['Web-design', 'Development', 'PHP'],
-        projectLink: ''
+        projectLink: 'https://github.com/Roberto-vic/My_Lib'
     },
     {
         imgSrc: './images/ecommerce.png',
