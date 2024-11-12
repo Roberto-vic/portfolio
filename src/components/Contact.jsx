@@ -34,7 +34,7 @@ const Contact = () => {
                     <p className="text-zinc-400 mt-3 mb-8 max-w-[50ch] lg:max-w-[30ch] reveal-up ">
                         I’m currently seeking a full-time position where I can grow as a junior developer and contribute
                         to impactful web development projects. If you’re looking for a motivated developer to join your team,
-                        feel free to reach out via the contact form or email me directly at [roberto.vicari79@gmail.com].
+                        feel free to reach out via the contact form or email me directly at <a href="mailto:roberto.vicari79@gmail.com" className="text-sky-400 hover:text-sky-600">roberto.vicari79@gmail.com</a>.
                     </p>
 
                     <div className="flex items-center gap-2 mt-auto ">
@@ -87,7 +87,7 @@ const Contact = () => {
                                 id="email"
                                 autoComplete="email"
                                 required
-                                placeholder="emal@example.com"
+                                placeholder="email@example.com"
                                 className="text-field reveal-up "
                             />
                         </div>
