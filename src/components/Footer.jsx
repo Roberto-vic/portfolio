@@ -22,10 +22,6 @@ const sitemap = [
         label: 'Work',
         href: '#work'
     },
-    // {
-    //     label: 'Reviews',
-    //     href: '#reviews'
-    // },
     {
         label: 'Contact me',
         href: '#contact'
@@ -47,7 +43,7 @@ const socials = [
     },
 ];
 
-const Footer = () => {
+const Footer = ({ onShowPrivacyPolicy }) => {
     return (
         <section className="section ">
             <div className="container ">
@@ -120,9 +116,15 @@ const Footer = () => {
                             />
                         </a>
                     </p>
-                    <p className="text-zinc-500 text-sm reveal-up ">
-                        &copy; 2024 <span className="text-zinc-200 ">Roberto Vicari</span>
+                    <p>
+                        <button link="#policy" onClick={onShowPrivacyPolicy} className="text-sm text-zinc-400 hover:text-zinc-200 reveal-up">
+                            Privacy Policy
+                        </button>
                     </p>
+                    <p className="text-zinc-500 text-sm reveal-up ">
+                        &copy; 2024 <span className="text-zinc-200 ">Roberto Vicari </span>
+                    </p>
+                    
                 </div>
             </div>
         </section>

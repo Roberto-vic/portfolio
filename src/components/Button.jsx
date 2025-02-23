@@ -63,7 +63,8 @@ const ButtonOutline = ({
     target = '_self',
     label,
     icon,
-    classes
+    classes,
+    onClick
 }) => {
     if (href) {
         return (
@@ -81,7 +82,8 @@ const ButtonOutline = ({
         )
     } else {
         return (
-            <button className={'btn btn-outline ' + classes}>
+            <button className={'btn btn-outline ' + classes}
+                    onClick={onClick}>
                 {label}
                 {icon ? <span className="material-symbols-rounded" aria-hidden="true">
                     {icon}
@@ -98,7 +100,8 @@ ButtonOutline.propTypes = {
     href: PropTypes.string,
     target: PropTypes.string,
     icon: PropTypes.string,
-    classes: PropTypes.string
+    classes: PropTypes.string,
+    onClick: PropTypes.func
 }
 export {
     ButtonPrimary,
