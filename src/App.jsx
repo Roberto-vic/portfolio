@@ -66,7 +66,6 @@ const App = () => {
     };
 
     const handleShowPortfolio = () => {
-        window.location.href('/');
         setShowPrivacyPolicy(false);
     };
 

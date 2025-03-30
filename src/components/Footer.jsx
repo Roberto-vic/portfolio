@@ -117,12 +117,12 @@ const Footer = ({ onShowPrivacyPolicy }) => {
                         </a>
                     </p>
                     <p>
-                        <button link="#policy" onClick={onShowPrivacyPolicy} className="text-sm text-zinc-400 hover:text-zinc-200 reveal-up">
+                        <button onClick={onShowPrivacyPolicy} className="text-sm text-zinc-400 hover:text-zinc-200 reveal-up">
                             Privacy Policy
                         </button>
                     </p>
                     <p className="text-zinc-500 text-sm reveal-up ">
-                        &copy; 2024 <span className="text-zinc-200 ">Roberto Vicari </span>
+                        &copy; {new Date().getFullYear()} <span className="text-zinc-200 ">Roberto Vicari </span>
                     </p>
                     
                 </div>

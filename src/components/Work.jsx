@@ -34,6 +34,12 @@ const works = [
         tags: ['Web-design', 'Development', 'HTML-CSS-JS'],
         projectLink: 'https://roberto-vic.github.io/Onepagesite/'
     },
+    {
+        imgSrc: './images/landingpageotty.png',
+        title: 'Landingpage for bill comparison request',
+        tags: ['Web-design', 'Development', 'HTML-CSS-JS', 'Bootstrap'],
+        projectLink: 'https://www.comparazione-bollette.it/'
+    },
 ];
 
 const Work = () => {

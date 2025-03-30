@@ -9,7 +9,7 @@ import { ButtonOutline } from './Button';
 const PrivacyPolicy = ({ onShowPortfolio }) => {
     return (
         <>
-            <section id='policy' className='section'>
+            <section className='section'>
                 <div className='container mt-12'>
                     <div className='bg-zinc-800/30 p-7 rounded-2xl md:p-12'>
                         <h1 className="headline-1 break-all max-w-[15ch] sm:max-w-[20ch] lg:max-w-[30ch] mt-5 mb-8 lg:mb-10 ">Datenschutzerklärung</h1>
@@ -74,7 +74,7 @@ const PrivacyPolicy = ({ onShowPortfolio }) => {
                         <p>Wenn du Fragen oder Anmerkungen hast, kannst du mich unter der oben angegebenen E-Mail-Adresse kantaktieren.</p>
                         <br />
                         <br />
-                        <ButtonOutline onClick={onShowPortfolio} label="Back to Homepage" icon="home">Back</ButtonOutline>
+                        <ButtonOutline onClick={onShowPortfolio} label="Back to Homepage" icon="home"></ButtonOutline>
                     </div>
                 </div>
             </section>
